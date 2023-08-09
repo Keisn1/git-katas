@@ -1,6 +1,7 @@
 * Github Katas to add
 
 * Forge Katas
+** Issue Editorial Actions
 1. Create an Issue
 2. Make Bullet Points
 3. Reference a whole post
@@ -11,6 +12,9 @@
 8. Add some code
 9. Add some latex
 10. Reference a color
+11. Close Issue
+** Pull Requests
+** Milestones
 
 * Magit and Forge
 [[https://magit.vc/manual/forge.pdf][ForgeManual]]
