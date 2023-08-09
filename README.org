@@ -15,6 +15,7 @@
 11. Close Issue
 ** Pull Requests
 ** Milestones
+** Added some more lines
 
 * Magit and Forge
 [[https://magit.vc/manual/forge.pdf][ForgeManual]]
