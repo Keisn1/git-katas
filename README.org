@@ -1,0 +1,25 @@
+* Github Katas to add
+
+* Forge Katas
+1. Create an Issue
+
+* Magit and Forge
+[[https://magit.vc/manual/forge.pdf][ForgeManual]]
+** Manual
+- Uses Ghub package
+*** How To
+1. Install GPG
+2. Edit auth-sources
+3. Create a Github token
+   • For Github these scopes are required.
+   • repo grants full read/write access to private and public repositories.
+   • user grants access to profile information.
+   • read:org grants read-only access to organization membership.
+4. Storing the Token into auth-sources
+   [[https://magit.vc/manual/ghub/Storing-a-Token.html][StoringAToken]]
+   - how it would be stored on github with UserName ziggy / package forge
+    machine api.github.com login ziggy^forge password 012345abcdef...
+5. forge-add-repository
+*** Install GnuGPG
+- Install GPG from [[https://sourceforge.net/p/gpgosx/docu/Download/][GPGforMacOS]]
+- sudo gpg --gen-key
