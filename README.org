@@ -17,6 +17,11 @@
 ** Milestones
 ** Added some more lines
 ** Add A git that trains diffs in Magit
+** Mentioning an Issue in other Issue
+[[https://github.com/huggingface/transformers/pull/24848][TransformerIssue]]
+** Mentioning issue inside commit
+[[https://github.com/nablabits/transformers/commit/d4281d3640fe424a9a0d5b960677b9d7852e7331][CommitIssueReference]]
+[[https://github.com/huggingface/transformers/pull/24892][ReferencingInsidePR]]
 
 * Magit and Forge
 [[https://magit.vc/manual/forge.pdf][ForgeManual]]
