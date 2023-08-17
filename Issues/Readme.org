@@ -1,0 +1,15 @@
+* Working with Issues
+Inside this Repo do the following things
+1. Create an Issue
+2. Make Bullet Points
+3. Reference a whole post
+4. Reference only a region inside a post
+5. Assign somebody
+6. Create and Add a Mark
+7. Add a Note
+8. Add some code
+9. Add some latex
+10. Reference a color
+11. Refer to another issue in a comment
+12. Refer to another issue in a commit
+13. Close Issue

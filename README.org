@@ -15,7 +15,6 @@
 11. Close Issue
 ** Pull Requests
 ** Milestones
-** Added some more lines
 ** Add A git that trains diffs in Magit
 ** Mentioning an Issue in other Issue
 [[https://github.com/huggingface/transformers/pull/24848][TransformerIssue]]
