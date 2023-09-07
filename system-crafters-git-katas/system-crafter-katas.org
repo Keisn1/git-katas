@@ -1,0 +1,58 @@
+* Rebase 1
+[[https://www.youtube.com/watch?v=INTu30BHZGk&t=2675s][RebaseInEmacsFromScratch4]]
+
+- making a change
+- add change to a commit via fixup
+  - "c f"
+  - gives list of recent commits
+  - but now it's out of date with the remote
+  - in the video it was the parent commit of the latest commit
+- then rebasing
+  - "r i" for interactively
+  - then you can choose what to do with the different commits
+    - pick / reword / edit / squash / fixup / exec / drop / undo / moving and other stuff
+  - in the video squashing a commit into the other
+  - then pushing
+    - need to do a force push
+
+
+* CherryPick
+[[https://www.youtube.com/watch?v=INTu30BHZGk&t=2995s][CherryPickFromEmacsFromScratch4]]
+- capital "A" for apply
+- "A A" for cherry-pick
+- workflow involved -> just abort
+  - need to hit a the same workflow key again
+
+* 9 Techniques to boost your Git Workflow
+[[https://www.youtube.com/watch?v=qPfJoeQCIvA&list=PLEoMzSkcN8oMc34dTjyFmTUWbXTKrNfZA&index=2&ab_channel=SystemCrafters][9TechniquesToBoostYourGitWorkflow]]
+
+** Cloning
+- can also just type name of user / name of repo instead of url itself
+- can also type abbreviation for github, gitlab or what you want
+  - have a look at magit-clone-name-alist
+- magit commands can be used as functions
+  - for example hard reset
+  - to be used in Kata?
+
+** Commit History
+- "l l" log current branch
+- "l o" commit from different branch (even remote branches)
+** Commiting only one section of a modified file
+- in magit you can just add hunks
+- be aware of adding all the lines you want to change (if added, does it have
+  also a delete?)
+
+** Adding a file or change to the most recent commit
+- "c e" (extend)
+- merges changes into previous commit
+  - has changed commit-history
+- what happens with the remote?
+  - need to be force pushed
+- want to edit Commit message?
+  - "c a" (amend)
+  - asks for the commit message
+- rewording?
+  - "c r"
+  - staged changes will not be added
+  - so reword really only changes commit message
+- work only on most recent commit made
